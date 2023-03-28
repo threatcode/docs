@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: What is disclose.io
+title: What is threatcode.github.io
 categories: [Introduction]
 tags: 
 ---
@@ -12,7 +12,7 @@ We provide free, open-source tools and data to help **establish and improve vuln
 
 ## Powered by experts 
 
-With the help of expert maintainers and by harnessing the power of open-source, disclose.io provides:
+With the help of expert maintainers and by harnessing the power of open-source, threatcode.github.io provides:
 
 -   **Free boilerplate policies**, tools, contact lists, and data-sets;
 -   A **straight-forward maturity model** with recognition of all levels of best practice adoption, and
