@@ -1,0 +1,33 @@
+- title: Introduction
+  docs:
+  - what-is-disclose
+  - vision-and-mission
+  - design-strategy
+  - key-objectives
+  - diostatus
+
+- title: Getting started
+  docs:
+  - user-stories
+  - finders
+  - recipients
+  - contributors
+
+- title: Projects
+  docs:
+  - project-directory
+  - join-a-project
+
+- title: Resources
+  docs:
+  - policymaker
+  - researcher-threats
+  - bug-bounty-platforms
+
+- title: Community
+  docs:
+  - discourse
+  - press-articles
+  - talks-and-videos
+  - advocacy-and-activism
+  - legal-disclaimer

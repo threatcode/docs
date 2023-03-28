@@ -1,0 +1,16 @@
+# Mobile menu navigation links
+
+- title: Home
+  url: /
+
+- title: Docs
+  url: /docs/what-is-disclose/
+
+- title: Blog
+  url: https://blog.disclose.io
+
+- title: History
+  url: /history/
+  
+- title: Program Search
+  url: /programs/

@@ -1,0 +1,192 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site title and description
+title:              The disclose.io Project
+description:        Open-source tools for a healthy Internet Immune System.
+lang:               en
+
+# Site subpath, e.g. /blog
+baseurl:            ""
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                "https://disclose.io"
+
+# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
+logo: logo.svg               
+
+navbar:
+    sticky:         true
+    search:         true
+  
+# Default author settings
+author:
+    name:           disclose.io
+    title:          Sysops 
+    avatar:         logo.svg
+
+# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+authors:
+    casey:
+      name:         caseyjohnellis
+      title:        Founding Member      
+      avatar:       avatar-cje.jpg
+    amit:
+      name:         amitelazari
+      title:        Founding Member    
+      avatar:       avatar-amit.jpg
+    chloe:
+      name:         chloemessdaghi
+      title:        Founding Member    
+      avatar:       avatar-chloe.jpg
+    jack:
+      name:         jack
+      title:        Contributor/Maintainer     
+      avatar:       avatar-jack.jpg
+    harley:
+      name:         harleygeiger
+      title:        Contributor/Maintainer      
+      avatar:       avatar-harley.jpg
+    fred:
+      name:         esquiring
+      title:        Contributor/Maintainer      
+      avatar:       avatar-fj.jpg
+    beau:
+      name:         beauwoods
+      title:        Contributor/Maintainer      
+      avatar:       avatar-beauwoods.jpg
+    jeremy:
+      name:         jmanoto
+      title:        Contributor/Maintainer      
+      avatar:       avatar-jmanoto.jpg
+    andrew:
+      name:         andrewmohawk
+      title:        Contributor/Maintainer
+      avatar:       avatar-andrew.jpg
+    sickcodes:
+      name:         sickcodes
+      title:        Contributor/Maintainer
+      avatar:       avatar-sickcodes.jpg
+    dan:
+      name:         dantrauner
+      title:        Contributor      
+      avatar:       avatar-dantrauner.jpg
+    jen:
+      name:         infosecjen
+      title:        Contributor      
+      avatar:       avatar-jen.jpg
+    harley:
+      name:         harleygeiger
+      title:        Contributor/Maintainer      
+      avatar:       avatar-harley.jpg
+    haddix:
+      name:         jhaddix
+      title:        Contributor      
+      avatar:       avatar-jhaddix.jpg
+    lisa:
+      name:         its-a-lisa
+      title:        Contributor      
+      avatar:       avatar-lisa.jpg
+    max:
+      name:         max
+      title:        Contributor      
+      avatar:       avatar-max.jpg
+    degeri:
+      name:         hakluke
+      title:        Contributor      
+      avatar:       avatar-hakluke.jpg
+    jonathan:
+      name:         jonathan
+      title:        Contributor      
+      avatar:       avatar-jonathan.jpg
+    borski:
+      name:         0ddinput
+      title:        Contributor
+      avatar:       avatar-0ddinput.jpg
+
+# Social icons displayed in footer
+social:
+    email:          hello@disclose.io
+    website:        https://disclose.io
+    facebook:       https://www.facebook.com/disclose-io
+    github:         https://github.com/disclose
+    linkedin:       https://www.facebook.com/discloseio
+    twitter:        https://twitter.com/disclose_io
+    youtube:        https://www.youtube.com/c/discloseio
+
+# Share button
+share:
+    post:           true # Display share buttons on a post page
+    doc:            true # Display share buttons on a doc page
+    twitter:        disclose_io # Enable by adding Twitter handle 
+    facebook:       true # Enable by setting true (Facebook handle not required)
+
+# Default footer image settings
+footer:
+    copyright:      Copyright 2018-2022 disclose.io
+
+# Disqus comments shortname, requires Disqus account https://disqus.com/
+disqus:
+    shortname:      disclose_io
+
+# Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:   UA-143424917-6
+
+# Number of posts displayed on blog page
+paginate:           10
+
+# Blog path
+paginate_path:      "/blog/:num/"
+
+# Path to post content assets directory i.e post images, pdfs etc
+uploads:            /uploads/
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-avatar
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+sass:
+  style:            compressed
+
+collections:
+  docs:
+    output:         true
+  faqs:
+    output:         false
+  changelogs:
+    output:         false
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
+  # _docs
+  - scope:
+      path:         ""
+      type:         docs
+    values:
+      layout:       doc
+
+include: 
+  - ".well-known"

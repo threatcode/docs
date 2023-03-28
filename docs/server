@@ -1,0 +1,7 @@
+---
+permalink: .well-known/matrix/server
+---
+
+{
+	"m.server": "matrix.disclose.io:8448"
+}

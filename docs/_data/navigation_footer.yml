@@ -1,0 +1,10 @@
+# Footer navigation links
+
+- title: Home
+  url: /
+
+- title: Blog
+  url: https://blog.disclose.io
+
+- title: Contact Us
+  url: /contact/
