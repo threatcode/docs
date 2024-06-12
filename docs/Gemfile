@@ -36,6 +36,6 @@ gem "nokogiri", "~> 1.13"
 
 gem "open-uri", "~> 0.1.0"
 
-gem "ruby-readability", "~> 0.7.0"
+gem "ruby-readability", "~> 0.7.1"
 
 gem "digest", "~> 3.0"
